@@ -21,9 +21,9 @@ private:
   int result_size_;  //field num
 
   //list<string> field_name_list_;  //the list of field name; delete
-  map<string, uint32_t> fields_map_;
+  map<string, int> fields_map_;
   unsigned char** result_array_; //the list of result data, stored by char value; delete
-  MYSQL_BIND* mysql_binds_;  //result bind; delete
+  MYSQL_BIND* result_binds_;  //result bind; delete
   
   int _GetIndex(const string& key);
 };

@@ -7,10 +7,10 @@ using namespace std;
 
 class CDBConn {
 public:
-  CDBConn(const string& db_host, const string& username, const string& passwd, 
-      const string& db_name, uint32_t db_port);
+  CDBConn();
   virtual ~CDBConn();
-  bool Init();
+  bool Init(const string& db_host, const string& username, const string& passwd, 
+      const string& db_name, uint32_t db_port);
   MYSQL* GetConn();
 
 private:

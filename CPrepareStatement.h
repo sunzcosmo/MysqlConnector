@@ -1,19 +1,21 @@
-#include "CResultSet.h"
 
 #ifndef MYSQLCLIENT_CSTMTSTATEMENT_H_
 #define MYSQLCLIENT_CSTMTSTATEMENT_H_
+#include <string>
+
+#include "CResultSet.h"
+#include "mysql.h"
 
 class CPrepareStatement {
 public:
   CPrepareStatement();
-  virtual ~CPrepareStatemnt();
+  virtual ~CPrepareStatement();
 
-  CResultSet* ExecuteQuery();
   bool Init(MYSQL* mysql_conn, const string& sql);
-  void ExecuteUpdate();
+  bool ExecuteUpdate();
   CResultSet* ExecuteQuery();
-  void setParam(const string& value, uint32_t index);
-  void setParam(int value, uint32_t index);
+  void SetParam(const string& value, uint32_t index);
+  void SetParam(int value, uint32_t index);
   uint32_t GetInsertId();  
 private:
   MYSQL_STMT* mysql_stmt_;
