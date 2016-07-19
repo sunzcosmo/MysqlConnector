@@ -1,3 +1,3 @@
 # MysqlConnector
-A simple basic self made mysql connector use C++ 
+A simple mysql connector writen in C++ 
 Based on Mysql C API 5.7
