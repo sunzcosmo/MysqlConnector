@@ -1,33 +1,29 @@
-
+#include <iostream>
 #include "CResultSet.h"
 #include <map>
 #include <string.h>
 
-CResultSet::CResultSet(MYSQL_STMT *stmt): mysql_stmt_(stmt)
+CResultSet::CResultSet(MYSQL_STMT *stmt): 
+    mysql_stmt_(stmt),
+    metadata_(mysql_stmt_result_metadata(mysql_stmt_)),
+    result_size_(mysql_num_fields(metadata_))
 {
   if(stmt == nullptr)
   {
     //log
     exit(0);
   }
-  //mysql_stmt_ = stmt;
-  MYSQL_RES* metadata = mysql_stmt_result_metadata(mysql_stmt_);
-  result_size_ = mysql_num_fields(metadata);
-  //result_binds_ = new MYSQL_BIND[result_size_];
-  //memset(result_binds_, 0, result_size_);
+  fields_map_.clear();
+  //std::cout<<result_size_<<std::endl;
   result_binds_ = (MYSQL_BIND*)calloc(result_size_, sizeof(MYSQL_BIND));
-  //result_array_ = new unsigned char*[result_size_];
-  //memset(result_array_, 0, result_size_);
-  result_array_ = (unsigned char**)calloc(result_size_, sizeof(unsigned char*));
-  MYSQL_FIELD* fields = mysql_fetch_fields(metadata);
+  result_array_ = (BYTE**)calloc(result_size_, sizeof(unsigned char*));
+  MYSQL_FIELD* fields = mysql_fetch_fields(metadata_);
   for(int i=0; i<result_size_; ++i)
   {
     result_binds_[i].buffer_type = fields[i].type;
-    uint32_t buffer_size = fields[i].length;
-    result_binds_[i].buffer_length = buffer_size;
-    //result_array_[i] = new unsigned char[buffer_size];
-    //memset(result_array_, 0, buffer_size);
-    result_array_[i] = (unsigned char*)calloc(buffer_size, sizeof(unsigned char));
+    uint32_t buffer_length = fields[i].length;
+    result_binds_[i].buffer_length = buffer_length;
+    result_array_[i] = (BYTE*)calloc(buffer_length, sizeof(unsigned char));
     result_binds_[i].buffer = result_array_[i];
     fields_map_.insert(std::make_pair(string(fields[i].name), i));
   }
