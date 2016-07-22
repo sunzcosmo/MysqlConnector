@@ -12,7 +12,7 @@ int main()
 {
   string db_host = "127.0.0.1";
   uint32_t db_port = 3306;
-  string username = "root";
+  string username = "###";
   string passwd = "###";
   string db_name = "###";
   CDBConn* db_conn = new CDBConn();
