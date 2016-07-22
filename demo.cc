@@ -13,8 +13,8 @@ int main()
   string db_host = "127.0.0.1";
   uint32_t db_port = 3306;
   string username = "root";
-  string passwd = "abcd1234";
-  string db_name = "teamtalk";
+  string passwd = "###";
+  string db_name = "###";
   CDBConn* db_conn = new CDBConn();
   db_conn->Init(db_host, username, passwd, db_name, db_port);
   CPrepareStatement* pstmt = new CPrepareStatement();
