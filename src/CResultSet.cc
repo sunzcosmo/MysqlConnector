@@ -8,7 +8,7 @@ CResultSet::CResultSet(MYSQL_STMT *stmt):
     metadata_(mysql_stmt_result_metadata(mysql_stmt_)),
     result_size_(mysql_num_fields(metadata_))
 {
-  if(stmt == nullptr)
+  if(mysql_stmt_ == nullptr)
   {
     //log
     exit(0);
@@ -43,6 +43,10 @@ CResultSet::~CResultSet()
   if(result_binds_)
   {
     delete [] result_binds_;
+  }
+  if(metadata_)
+  {
+    mysql_free_result(metadata_);
   }
   fields_map_.clear();
 

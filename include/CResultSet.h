@@ -1,5 +1,5 @@
-#ifndef MYSQL_CLIENT_CRESULTSET_H_
-#define MYSQL_CLIENT_CRESULTSET_H_    
+#ifndef SUN_MYSQL_CONNECTOR_CRESULTSET_H_
+#define SUN_MYSQL_CONNECTOR_CRESULTSET_H_
 
 #include <map>
 #include "mysql.h"
@@ -11,7 +11,8 @@ using namespace std;
 class CResultSet {
 public:
   CResultSet() {}
-  CResultSet(const CResultSet &) = delete;
+  CResultSet(const CResultSet&) = delete;
+  CResultSet& operator=(const CResultSet&) = delete;
   CResultSet(MYSQL_STMT *mysql_stmt);
   virtual  ~CResultSet();
 
@@ -32,4 +33,5 @@ private:
   int _GetIndex(const string& key);
 };
 
-#endif  //MYSQL_CLIENT_CRESULTSET_H_
+#endif  //SUN_MYSQL_CONNECTOR_CRESULTSET_H_    
+

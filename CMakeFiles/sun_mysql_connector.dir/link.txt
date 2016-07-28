@@ -1,0 +1,1 @@
+/usr/local/bin/c++  -fPIC    -shared -Wl,-soname,libsun_mysql_connector.so -o lib/libsun_mysql_connector.so CMakeFiles/sun_mysql_connector.dir/src/Utils.cc.o CMakeFiles/sun_mysql_connector.dir/src/CDBConn.cc.o CMakeFiles/sun_mysql_connector.dir/src/CPrepareStatement.cc.o CMakeFiles/sun_mysql_connector.dir/src/CResultSet.cc.o -lmysqlclient_r 

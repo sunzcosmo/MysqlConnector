@@ -1,0 +1,251 @@
+The system is: Linux - 2.6.32-642.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1214437813/fast"
+gmake[1]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1214437813.dir/build.make CMakeFiles/cmTryCompileExec1214437813.dir/build
+gmake[2]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1214437813.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1214437813.dir/testCCompiler.c.o   -c /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1214437813
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1214437813.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1214437813.dir/testCCompiler.c.o  -o cmTryCompileExec1214437813 -rdynamic 
+gmake[2]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1614563807/fast"
+gmake[1]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1614563807.dir/build.make CMakeFiles/cmTryCompileExec1614563807.dir/build
+gmake[2]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1614563807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1614563807.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1614563807 -rdynamic  
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-17) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1614563807' '-rdynamic' '-mtune=generic'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1614563807 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[2]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1614563807/fast"]
+  ignore line: [gmake[1]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1614563807.dir/build.make CMakeFiles/cmTryCompileExec1614563807.dir/build]
+  ignore line: [gmake[2]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1614563807]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1614563807.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1614563807 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-17) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1614563807' '-rdynamic' '-mtune=generic']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1614563807 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1614563807] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec1614563807.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.4.7;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec341205530/fast"
+gmake[1]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec341205530.dir/build.make CMakeFiles/cmTryCompileExec341205530.dir/build
+gmake[2]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec341205530.dir/testCXXCompiler.cxx.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec341205530.dir/testCXXCompiler.cxx.o -c /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec341205530
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec341205530.dir/link.txt --verbose=1
+/usr/local/bin/c++        CMakeFiles/cmTryCompileExec341205530.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec341205530 -rdynamic 
+gmake[2]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3498047463/fast"
+gmake[1]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3498047463.dir/build.make CMakeFiles/cmTryCompileExec3498047463.dir/build
+gmake[2]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3498047463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3498047463.dir/link.txt --verbose=1
+/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3498047463 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ./configure
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3498047463' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3498047463 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[2]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3498047463/fast"]
+  ignore line: [gmake[1]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3498047463.dir/build.make CMakeFiles/cmTryCompileExec3498047463.dir/build]
+  ignore line: [gmake[2]: Entering directory `/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3498047463]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3498047463.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3498047463 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ./configure]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3498047463' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3498047463 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3498047463] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2]
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec3498047463.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2] ==> [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2]
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..] ==> [/usr/local/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.9.2;/usr/local/lib64;/lib64;/usr/lib64;/usr/local/lib]
+  implicit fwks: []
+
+

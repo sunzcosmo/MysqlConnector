@@ -1,5 +1,5 @@
-#ifndef MYSQL_CONNECTOR_CDBCONN_H_
-#define MYSQL_CONNECTOR_CDBCONN_H_
+#ifndef SUN_MYSQL_CONNECTOR_CDBCONN_H_
+#define SUN_MYSQL_CONNECTOR_CDBCONN_H_
 
 #include <string>
 
@@ -26,5 +26,5 @@ private:
 
 
 
-#endif  //MYSQL_CONNECTOR_CDBCONN_H_
+#endif  //SUN_MYSQL_CONNECTOR_CDBCONN_H_
 
