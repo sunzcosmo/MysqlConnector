@@ -1,1 +1,1 @@
-/home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/sun_mysql_connector.dir
+/home/sun/WorkSpace/C/my_dbc/MysqlConnector/CMakeFiles/mysql_connector.dir

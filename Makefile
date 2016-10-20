@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector
+CMAKE_SOURCE_DIR = /home/sun/WorkSpace/C/my_dbc/MysqlConnector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector
+CMAKE_BINARY_DIR = /home/sun/WorkSpace/C/my_dbc/MysqlConnector
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/C/my_dbc/MysqlConnector/CMakeFiles /home/sun/WorkSpace/C/my_dbc/MysqlConnector/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/C/my_dbc/MysqlConnector/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -102,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sun_mysql_connector
+# Target rules for targets named mysql_connector
 
 # Build rule for target.
-sun_mysql_connector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sun_mysql_connector
-.PHONY : sun_mysql_connector
+mysql_connector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mysql_connector
+.PHONY : mysql_connector
 
 # fast build rule for target.
-sun_mysql_connector/fast:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/build
-.PHONY : sun_mysql_connector/fast
+mysql_connector/fast:
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/build
+.PHONY : mysql_connector/fast
 
 src/CDBConn.o: src/CDBConn.cc.o
 .PHONY : src/CDBConn.o
 
 # target to build an object file
 src/CDBConn.cc.o:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CDBConn.cc.o
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CDBConn.cc.o
 .PHONY : src/CDBConn.cc.o
 
 src/CDBConn.i: src/CDBConn.cc.i
@@ -127,7 +127,7 @@ src/CDBConn.i: src/CDBConn.cc.i
 
 # target to preprocess a source file
 src/CDBConn.cc.i:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CDBConn.cc.i
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CDBConn.cc.i
 .PHONY : src/CDBConn.cc.i
 
 src/CDBConn.s: src/CDBConn.cc.s
@@ -135,7 +135,7 @@ src/CDBConn.s: src/CDBConn.cc.s
 
 # target to generate assembly for a file
 src/CDBConn.cc.s:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CDBConn.cc.s
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CDBConn.cc.s
 .PHONY : src/CDBConn.cc.s
 
 src/CPrepareStatement.o: src/CPrepareStatement.cc.o
@@ -143,7 +143,7 @@ src/CPrepareStatement.o: src/CPrepareStatement.cc.o
 
 # target to build an object file
 src/CPrepareStatement.cc.o:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CPrepareStatement.cc.o
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CPrepareStatement.cc.o
 .PHONY : src/CPrepareStatement.cc.o
 
 src/CPrepareStatement.i: src/CPrepareStatement.cc.i
@@ -151,7 +151,7 @@ src/CPrepareStatement.i: src/CPrepareStatement.cc.i
 
 # target to preprocess a source file
 src/CPrepareStatement.cc.i:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CPrepareStatement.cc.i
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CPrepareStatement.cc.i
 .PHONY : src/CPrepareStatement.cc.i
 
 src/CPrepareStatement.s: src/CPrepareStatement.cc.s
@@ -159,7 +159,7 @@ src/CPrepareStatement.s: src/CPrepareStatement.cc.s
 
 # target to generate assembly for a file
 src/CPrepareStatement.cc.s:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CPrepareStatement.cc.s
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CPrepareStatement.cc.s
 .PHONY : src/CPrepareStatement.cc.s
 
 src/CResultSet.o: src/CResultSet.cc.o
@@ -167,7 +167,7 @@ src/CResultSet.o: src/CResultSet.cc.o
 
 # target to build an object file
 src/CResultSet.cc.o:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CResultSet.cc.o
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CResultSet.cc.o
 .PHONY : src/CResultSet.cc.o
 
 src/CResultSet.i: src/CResultSet.cc.i
@@ -175,7 +175,7 @@ src/CResultSet.i: src/CResultSet.cc.i
 
 # target to preprocess a source file
 src/CResultSet.cc.i:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CResultSet.cc.i
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CResultSet.cc.i
 .PHONY : src/CResultSet.cc.i
 
 src/CResultSet.s: src/CResultSet.cc.s
@@ -183,7 +183,7 @@ src/CResultSet.s: src/CResultSet.cc.s
 
 # target to generate assembly for a file
 src/CResultSet.cc.s:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/CResultSet.cc.s
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/CResultSet.cc.s
 .PHONY : src/CResultSet.cc.s
 
 src/Utils.o: src/Utils.cc.o
@@ -191,7 +191,7 @@ src/Utils.o: src/Utils.cc.o
 
 # target to build an object file
 src/Utils.cc.o:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/Utils.cc.o
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/Utils.cc.o
 .PHONY : src/Utils.cc.o
 
 src/Utils.i: src/Utils.cc.i
@@ -199,7 +199,7 @@ src/Utils.i: src/Utils.cc.i
 
 # target to preprocess a source file
 src/Utils.cc.i:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/Utils.cc.i
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/Utils.cc.i
 .PHONY : src/Utils.cc.i
 
 src/Utils.s: src/Utils.cc.s
@@ -207,7 +207,7 @@ src/Utils.s: src/Utils.cc.s
 
 # target to generate assembly for a file
 src/Utils.cc.s:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/src/Utils.cc.s
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/src/Utils.cc.s
 .PHONY : src/Utils.cc.s
 
 # Help Target
@@ -217,8 +217,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... mysql_connector"
 	@echo "... rebuild_cache"
-	@echo "... sun_mysql_connector"
 	@echo "... src/CDBConn.o"
 	@echo "... src/CDBConn.i"
 	@echo "... src/CDBConn.s"

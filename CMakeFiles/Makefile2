@@ -50,44 +50,44 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector
+CMAKE_SOURCE_DIR = /home/sun/WorkSpace/C/my_dbc/MysqlConnector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector
+CMAKE_BINARY_DIR = /home/sun/WorkSpace/C/my_dbc/MysqlConnector
 
 #=============================================================================
-# Target rules for target CMakeFiles/sun_mysql_connector.dir
+# Target rules for target CMakeFiles/mysql_connector.dir
 
 # All Build rule for target.
-CMakeFiles/sun_mysql_connector.dir/all:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/depend
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles  1 2 3 4
-	@echo "Built target sun_mysql_connector"
-.PHONY : CMakeFiles/sun_mysql_connector.dir/all
+CMakeFiles/mysql_connector.dir/all:
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/depend
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sun/WorkSpace/C/my_dbc/MysqlConnector/CMakeFiles  1 2 3 4
+	@echo "Built target mysql_connector"
+.PHONY : CMakeFiles/mysql_connector.dir/all
 
 # Include target in all.
-all: CMakeFiles/sun_mysql_connector.dir/all
+all: CMakeFiles/mysql_connector.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sun_mysql_connector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sun_mysql_connector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/Clang/my_dbc/MysqlConnector/CMakeFiles 0
-.PHONY : CMakeFiles/sun_mysql_connector.dir/rule
+CMakeFiles/mysql_connector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/C/my_dbc/MysqlConnector/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mysql_connector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sun/WorkSpace/C/my_dbc/MysqlConnector/CMakeFiles 0
+.PHONY : CMakeFiles/mysql_connector.dir/rule
 
 # Convenience name for target.
-sun_mysql_connector: CMakeFiles/sun_mysql_connector.dir/rule
-.PHONY : sun_mysql_connector
+mysql_connector: CMakeFiles/mysql_connector.dir/rule
+.PHONY : mysql_connector
 
 # clean rule for target.
-CMakeFiles/sun_mysql_connector.dir/clean:
-	$(MAKE) -f CMakeFiles/sun_mysql_connector.dir/build.make CMakeFiles/sun_mysql_connector.dir/clean
-.PHONY : CMakeFiles/sun_mysql_connector.dir/clean
+CMakeFiles/mysql_connector.dir/clean:
+	$(MAKE) -f CMakeFiles/mysql_connector.dir/build.make CMakeFiles/mysql_connector.dir/clean
+.PHONY : CMakeFiles/mysql_connector.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/sun_mysql_connector.dir/clean
+clean: CMakeFiles/mysql_connector.dir/clean
 .PHONY : clean
 
 #=============================================================================

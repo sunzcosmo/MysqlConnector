@@ -2,11 +2,11 @@
 #include <cstring>
 #include "CPrepareStatement.h"
 
-CPrepareStatement:: CPrepareStatement()
+CPrepareStatement::CPrepareStatement():
+    mysql_stmt_(nullptr),
+    param_binds_(nullptr),
+    param_size_(0)
 {
-  mysql_stmt_ = nullptr;
-  param_binds_ = nullptr;
-  param_size_ = 0;
 }
 
 CPrepareStatement::~CPrepareStatement()
@@ -27,27 +27,18 @@ bool CPrepareStatement::Init(MYSQL* mysql_conn, const string& sql)
 {
   mysql_ping(mysql_conn);
   mysql_stmt_ = mysql_stmt_init(mysql_conn);
-  if(!mysql_stmt_) 
-  {
-    //log
-    return false;
-  }
   if(mysql_stmt_prepare(mysql_stmt_, sql.c_str(), sql.size()))
   {
-    //log
     return false;
   }
   param_size_ = mysql_stmt_param_count(mysql_stmt_);
   if(param_size_ > 0)
   {
-    //param_binds_ = new MYSQL_BIND[param_size_]();
     param_binds_ = (MYSQL_BIND*)calloc(param_size_, sizeof(MYSQL_BIND));
     if(!param_binds_)
     {
-      //log
       exit(0);
     }
-    //memset(param_binds_, 0, sizeof(MYSQL_BIND)*param_size_);
   }
   return true;
 }
@@ -67,6 +58,7 @@ CResultSet* CPrepareStatement::ExecuteQuery()
   }
   return reset;
 }
+
 
 bool CPrepareStatement::ExecuteUpdate()
 {
