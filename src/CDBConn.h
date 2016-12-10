@@ -3,8 +3,6 @@
 
 #include <string>
 
-#include "mysql.h"
-
 using namespace std;
 
 class CDBConn {

@@ -1,0 +1,3 @@
+/home/sun/WorkSpace/C/MysqlConnector/build/CMakeFiles/edit_cache.dir
+/home/sun/WorkSpace/C/MysqlConnector/build/CMakeFiles/rebuild_cache.dir
+/home/sun/WorkSpace/C/MysqlConnector/build/CMakeFiles/mysql_connector.dir

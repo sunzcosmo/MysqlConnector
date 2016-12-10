@@ -17,7 +17,7 @@ CResultSet::~CResultSet()
   {
     for(int i=0; i<result_size_; ++i)
     {
-      free(result_array_);
+      free(result_array_[i]);
     }
     free(result_array_);
   }

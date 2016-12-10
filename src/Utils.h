@@ -3,7 +3,6 @@
 #include <sstream>
 #include <vector>
 #include <string>
-#define BYTE unsigned char
 
 namespace utils {
   std::vector<std::string> &split(const std::string &, char, std::vector<std::string> &);
