@@ -14,6 +14,7 @@ int main()
   if(!mysql_conn.Init("127.0.0.1", "root", pwd, "test", 3306) )
   {
     std::cout<<"can not make access to db"<<std::endl;
+    return -1;
   }
   string strsql("SELECT * FROM TEST_TABLE");
   CPrepareStatement pstmt;
