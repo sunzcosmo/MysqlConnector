@@ -3,3 +3,7 @@
 *.o
 
 pri.h
+
+make.sh
+
+cscope.files

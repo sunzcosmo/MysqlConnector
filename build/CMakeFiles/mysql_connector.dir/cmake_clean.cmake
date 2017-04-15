@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mysql_connector.dir/src/CDBConn.cc.o"
   "CMakeFiles/mysql_connector.dir/src/CPrepareStatement.cc.o"
-  "CMakeFiles/mysql_connector.dir/src/Utils.cc.o"
   "CMakeFiles/mysql_connector.dir/src/CResultSet.cc.o"
+  "CMakeFiles/mysql_connector.dir/src/Utils.cc.o"
   "lib/libmysql_connector.pdb"
   "lib/libmysql_connector.so"
 )
